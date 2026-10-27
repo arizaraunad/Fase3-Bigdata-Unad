@@ -16,3 +16,4 @@ while True:
     print(f"Enviando: {data}")
     producer.send('sensor_data', data)
     time.sleep(2)
+  
